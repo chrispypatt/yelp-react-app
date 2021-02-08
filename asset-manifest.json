@@ -1,22 +1,22 @@
 {
   "files": {
     "main.css": "/yelp-react-app/static/css/main.a51fcf7d.chunk.css",
-    "main.js": "/yelp-react-app/static/js/main.1b31951b.chunk.js",
-    "main.js.map": "/yelp-react-app/static/js/main.1b31951b.chunk.js.map",
-    "runtime-main.js": "/yelp-react-app/static/js/runtime-main.a587e069.js",
-    "runtime-main.js.map": "/yelp-react-app/static/js/runtime-main.a587e069.js.map",
-    "static/js/2.d7699b1f.chunk.js": "/yelp-react-app/static/js/2.d7699b1f.chunk.js",
-    "static/js/2.d7699b1f.chunk.js.map": "/yelp-react-app/static/js/2.d7699b1f.chunk.js.map",
-    "static/js/3.ee0c22f1.chunk.js": "/yelp-react-app/static/js/3.ee0c22f1.chunk.js",
-    "static/js/3.ee0c22f1.chunk.js.map": "/yelp-react-app/static/js/3.ee0c22f1.chunk.js.map",
+    "main.js": "/yelp-react-app/static/js/main.6061ae2c.chunk.js",
+    "main.js.map": "/yelp-react-app/static/js/main.6061ae2c.chunk.js.map",
+    "runtime-main.js": "/yelp-react-app/static/js/runtime-main.01aa97a8.js",
+    "runtime-main.js.map": "/yelp-react-app/static/js/runtime-main.01aa97a8.js.map",
+    "static/js/2.042e7370.chunk.js": "/yelp-react-app/static/js/2.042e7370.chunk.js",
+    "static/js/2.042e7370.chunk.js.map": "/yelp-react-app/static/js/2.042e7370.chunk.js.map",
+    "static/js/3.b40e57a8.chunk.js": "/yelp-react-app/static/js/3.b40e57a8.chunk.js",
+    "static/js/3.b40e57a8.chunk.js.map": "/yelp-react-app/static/js/3.b40e57a8.chunk.js.map",
     "index.html": "/yelp-react-app/index.html",
     "static/css/main.a51fcf7d.chunk.css.map": "/yelp-react-app/static/css/main.a51fcf7d.chunk.css.map",
-    "static/js/2.d7699b1f.chunk.js.LICENSE.txt": "/yelp-react-app/static/js/2.d7699b1f.chunk.js.LICENSE.txt"
+    "static/js/2.042e7370.chunk.js.LICENSE.txt": "/yelp-react-app/static/js/2.042e7370.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a587e069.js",
-    "static/js/2.d7699b1f.chunk.js",
+    "static/js/runtime-main.01aa97a8.js",
+    "static/js/2.042e7370.chunk.js",
     "static/css/main.a51fcf7d.chunk.css",
-    "static/js/main.1b31951b.chunk.js"
+    "static/js/main.6061ae2c.chunk.js"
   ]
 }
