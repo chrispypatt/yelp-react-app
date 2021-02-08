@@ -1,0 +1,14 @@
+.cell {
+	height: 350px;
+}
+
+.image {
+	height: 240px;
+	width: 100%;
+	object-fit: cover;
+}
+
+.info {
+	text-align: start;
+	padding: 10px;
+}
