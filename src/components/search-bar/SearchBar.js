@@ -6,12 +6,10 @@ import IconButton from '@material-ui/core/IconButton';
 import SearchIcon from '@material-ui/icons/Search';
 
 export default function SearchBar(props)  {
-	const [searchText, setSearchText] = useState(null);
+	const [searchText, setSearchText] = useState(props.defaultText);
 
 	const onSubmit = () => {
-		// if (searchText) {
 			props.onSubmit(searchText);
-		// }
 	}
 
 	const onChange = (e) => {
