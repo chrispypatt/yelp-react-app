@@ -37,7 +37,7 @@ export default function Home()  {
   return (
 		<>
 			<div className="header">
-				<h1>Search Businesses</h1>
+				<h1>Search Businesses or Cities</h1>
 				<SearchBar
 					defaultText={DEFAULT_SEARCH}
 					onSubmit={searchTextChanged}
@@ -49,7 +49,7 @@ export default function Home()  {
 			{ !loading &&
 				( businesses ? 
 					<BusinessTable
-						businesses={businesses}/>: <h1>Sorry, no business found</h1>
+						businesses={businesses}/>: <h1>Sorry, no businesses found</h1>
 				)
 			}
 		</>
