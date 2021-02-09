@@ -1,11 +1,14 @@
-import './Home.css'
 import React, { useState, useEffect } from 'react';
-import CircularProgress from '@material-ui/core/CircularProgress';
+
+import { Spin, PageHeader, Affix, Typography } from 'antd';
+
 import { getYelpBusinesses } from '../../services/yelp';
+
 import SearchBar from '../search-bar/SearchBar';
 import BusinessTable from '../business-grid/BusinessGrid';
 
 const DEFAULT_SEARCH = "Minneapolis, MN";
+const { Title, Text } = Typography;
 
 export default function Home()  {
 	const [businesses, setBusinesses] = useState(null);
@@ -36,20 +39,24 @@ export default function Home()  {
 
   return (
 		<>
-			<div className="header">
-				<h1>Search Businesses or Cities</h1>
-				<SearchBar
-					defaultText={DEFAULT_SEARCH}
-					onSubmit={searchTextChanged}
-				/>
-			</div>
-			<div className="spacer"/>
-			<br/>
-			{ loading && <CircularProgress/> }
+			<Affix offsetTop="0">
+				<PageHeader
+					className="site-page-header"
+					style={{ backgroundColor: "white" }}
+				>
+					<Title level={2}>Search for Businesses or Cities</Title>
+					<SearchBar
+							defaultText={DEFAULT_SEARCH}
+							onSubmit={searchTextChanged}
+						/>
+				</PageHeader>
+      </Affix>
+			
+			{ loading &&   <Spin tip="Loading..."/> }
 			{ !loading &&
 				( businesses ? 
 					<BusinessTable
-						businesses={businesses}/>: <h1>Sorry, no businesses found</h1>
+						businesses={businesses}/>: <Text>Sorry, no businesses found.</Text>
 				)
 			}
 		</>

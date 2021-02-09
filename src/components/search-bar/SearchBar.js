@@ -1,7 +1,7 @@
-import './SearchBar.css';
-import React, { useState, useEffect } from 'react';
-import Paper from '@material-ui/core/Paper';
-import InputBase from '@material-ui/core/InputBase';
+import React, { useState } from 'react';
+
+import { Input } from 'antd';
+const { Search } = Input;
 
 export default function SearchBar(props)  {
 	const [searchText, setSearchText] = useState(props.defaultText);
@@ -16,19 +16,21 @@ export default function SearchBar(props)  {
 
   return (
 		<>
-			<Paper className="search-bar">
-				<InputBase
-					inputProps={{ style: { textAlign: 'center' }}} 
-					placeholder="Search for businesses"
-					defaultValue={props.defaultText}
-					onChange={onChange}
-					onKeyPress={event => {
-						if (event.key === 'Enter') {
-							onSubmit();
-						}
-					}}
-				/>
-			</Paper>
+			<Search 
+				className="search-bar"
+				placeholder="Search for businesses" 
+				onChange={onChange} 
+				style={{ width: 400 }} 
+				value={searchText}
+				onKeyPress={event => {
+					if (event.key === 'Enter') {
+						onSubmit();
+					}
+				}}
+				allowClear
+				enterButton
+				size="large"
+			/>
 		</>
 	);
 };
