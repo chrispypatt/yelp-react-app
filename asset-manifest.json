@@ -1,22 +1,25 @@
 {
   "files": {
-    "main.css": "/yelp-react-app/static/css/main.a51fcf7d.chunk.css",
-    "main.js": "/yelp-react-app/static/js/main.6061ae2c.chunk.js",
-    "main.js.map": "/yelp-react-app/static/js/main.6061ae2c.chunk.js.map",
-    "runtime-main.js": "/yelp-react-app/static/js/runtime-main.01aa97a8.js",
-    "runtime-main.js.map": "/yelp-react-app/static/js/runtime-main.01aa97a8.js.map",
-    "static/js/2.042e7370.chunk.js": "/yelp-react-app/static/js/2.042e7370.chunk.js",
-    "static/js/2.042e7370.chunk.js.map": "/yelp-react-app/static/js/2.042e7370.chunk.js.map",
-    "static/js/3.b40e57a8.chunk.js": "/yelp-react-app/static/js/3.b40e57a8.chunk.js",
-    "static/js/3.b40e57a8.chunk.js.map": "/yelp-react-app/static/js/3.b40e57a8.chunk.js.map",
+    "main.css": "/yelp-react-app/static/css/main.cb9b5d0c.chunk.css",
+    "main.js": "/yelp-react-app/static/js/main.30475669.chunk.js",
+    "main.js.map": "/yelp-react-app/static/js/main.30475669.chunk.js.map",
+    "runtime-main.js": "/yelp-react-app/static/js/runtime-main.3a560e87.js",
+    "runtime-main.js.map": "/yelp-react-app/static/js/runtime-main.3a560e87.js.map",
+    "static/css/2.ca88fbcd.chunk.css": "/yelp-react-app/static/css/2.ca88fbcd.chunk.css",
+    "static/js/2.1e6646cf.chunk.js": "/yelp-react-app/static/js/2.1e6646cf.chunk.js",
+    "static/js/2.1e6646cf.chunk.js.map": "/yelp-react-app/static/js/2.1e6646cf.chunk.js.map",
+    "static/js/3.94618b4e.chunk.js": "/yelp-react-app/static/js/3.94618b4e.chunk.js",
+    "static/js/3.94618b4e.chunk.js.map": "/yelp-react-app/static/js/3.94618b4e.chunk.js.map",
     "index.html": "/yelp-react-app/index.html",
-    "static/css/main.a51fcf7d.chunk.css.map": "/yelp-react-app/static/css/main.a51fcf7d.chunk.css.map",
-    "static/js/2.042e7370.chunk.js.LICENSE.txt": "/yelp-react-app/static/js/2.042e7370.chunk.js.LICENSE.txt"
+    "static/css/2.ca88fbcd.chunk.css.map": "/yelp-react-app/static/css/2.ca88fbcd.chunk.css.map",
+    "static/css/main.cb9b5d0c.chunk.css.map": "/yelp-react-app/static/css/main.cb9b5d0c.chunk.css.map",
+    "static/js/2.1e6646cf.chunk.js.LICENSE.txt": "/yelp-react-app/static/js/2.1e6646cf.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.01aa97a8.js",
-    "static/js/2.042e7370.chunk.js",
-    "static/css/main.a51fcf7d.chunk.css",
-    "static/js/main.6061ae2c.chunk.js"
+    "static/js/runtime-main.3a560e87.js",
+    "static/css/2.ca88fbcd.chunk.css",
+    "static/js/2.1e6646cf.chunk.js",
+    "static/css/main.cb9b5d0c.chunk.css",
+    "static/js/main.30475669.chunk.js"
   ]
 }
